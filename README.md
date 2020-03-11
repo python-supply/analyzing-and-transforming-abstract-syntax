@@ -1,0 +1,4 @@
+# analyzing-and-transforming-abstract-syntax
+When managing a codebase, you may find it necessary to analyze some aspects of it (*e.g.,* whether a potential vulnerability appears, how often a language feature is used, or what fraction of the codebase has been documented) or to transform it (e.g., in order to restore its compatibility with a new version of a dependency or even to transpile it to another language). What tools are available to help you accomplish this in an automated and scalable way?
+
+Python's built-in libraries include powerful modules that make it possible to retrieve and operate over *abstract syntax trees* (ASTs) of modules, classes, and functions/methods. This article reviews the Python syntax definition, Python's abstract syntax data structure, and how this data structure's features can be used to write succinct Python code that can examine and transform other Python code.
